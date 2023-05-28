@@ -649,12 +649,12 @@ video {
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
-.bg-\[url\(\'\.\.\/assets\/images\/banner\.jpg\'\)\]{
-  background-image: url('../assets/images/banner.jpg');
+.bg-\[url\(\'\.\/assets\/images\/banner\.jpg\'\)\]{
+  background-image: url('./assets/images/banner.jpg');
 }
 
-.bg-\[url\(\'\.\.\/assets\/images\/spaceman\.png\'\)\]{
-  background-image: url('../assets/images/spaceman.png');
+.bg-\[url\(\'\.\/assets\/images\/spaceman\.png\'\)\]{
+  background-image: url('./assets/images/spaceman.png');
 }
 
 .bg-auto{
@@ -673,6 +673,10 @@ video {
   background-repeat: no-repeat;
 }
 
+.p-\[60px\]{
+  padding: 60px;
+}
+
 .px-\[45px\]{
   padding-left: 45px;
   padding-right: 45px;
@@ -683,24 +687,12 @@ video {
   padding-bottom: 18px;
 }
 
-.pb-\[41\.78px\]{
-  padding-bottom: 41.78px;
-}
-
 .pb-\[80px\]{
   padding-bottom: 80px;
 }
 
-.pl-\[60px\]{
-  padding-left: 60px;
-}
-
 .pt-\[127px\]{
   padding-top: 127px;
-}
-
-.pt-\[60px\]{
-  padding-top: 60px;
 }
 
 .text-\[100px\]{
