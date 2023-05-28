@@ -757,7 +757,7 @@ body{
 }
 
 .container{
-  max-width: 1232px !important;
-  padding: 0 20px !important;
-  margin: 0 auto !important;
+  max-width: 1232px;
+  padding: 0 20px;
+  margin: 0 auto;
 }
